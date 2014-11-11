@@ -24,7 +24,11 @@
   ],
   "dependencies": {
     "jsbot": "*",
-    "aws-sdk": "*"
+    "aws-sdk": "*",
+    "chai": "*",
+    "q": "*",
+    "mocha": "*",
+    "chai-as-promised": "*"
   },
   "author": "Jane Avriette",
   "license": "CC0-1.0",
