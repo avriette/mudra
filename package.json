@@ -1,0 +1,35 @@
+{
+  "name": "mudra",
+  "version": "0.1.0",
+  "description": "irc bot backended on amazon SQS",
+  "main": "bin/runmudra.js",
+  "bin": {
+    "mudra": "runmudra.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avriette/mudra"
+  },
+  "keywords": [
+    "irc",
+    "sqs",
+    "amazon",
+    "jsbot"
+  ],
+  "dependencies": {
+    "jsbot": "*",
+    "aws-sdk": "*"
+  },
+  "author": "Jane Avriette",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/avriette/mudra/issues"
+  },
+  "homepage": "https://github.com/avriette/mudra"
+}
